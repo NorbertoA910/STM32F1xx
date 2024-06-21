@@ -40,7 +40,7 @@
                                     // 1: Mode switching is by handshake pin input unless the keypad plugin is enabled in mode 2 which
                                     //    uses mode switching by the CMD_MPG_MODE_TOGGLE (0x8B) command character.
                                     // 2: Mode switching is by the CMD_MPG_MODE_TOGGLE command character. The keypad plugin is not required.
-//#define KEYPAD_ENABLE           1 // 1: uses a I2C keypad for input.
+#define KEYPAD_ENABLE 2             // 1: uses a I2C keypad for input.
                                     // 2: uses a serial port for input. If MPG_ENABLE is set to 1 the serial stream is shared with the MPG.
 //#define ODOMETER_ENABLE         1 // Odometer plugin.
 //#define TRINAMIC_ENABLE      2130 // Trinamic TMC2130 stepper driver support. NOTE: work in progress.
